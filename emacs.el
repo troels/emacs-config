@@ -21,5 +21,13 @@
 
 
 ;; Magit-mode
-
 (autoload 'magit-status "magit" nil t)
+
+;;Ipython-mode
+(setq ipython-command "/usr/bin/ipython")
+(require 'python-mode)
+(require 'ipython)
+
+;;Pymacs
+(require 'pymacs)
+(pymacs-load "ropemacs" "rope-")
