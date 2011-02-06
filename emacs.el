@@ -22,7 +22,7 @@
 
 ;; Magit-mode
 (autoload 'magit-status "magit" nil t)
-
+(global-set-key (kbd "s-g") 'magit-status)
 ;;Ipython-mode
 (setq ipython-command "/usr/bin/ipython")
 (require 'python-mode)
