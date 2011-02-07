@@ -31,3 +31,7 @@
 ;;Pymacs
 (require 'pymacs)
 (pymacs-load "ropemacs" "rope-")
+
+;; Haskell mode
+(autoload 'haskell-mode "haskell-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.hs" 'haskell-mode))
